@@ -1,0 +1,44 @@
+#banner{
+    background-color: midnightblue;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+#display{
+    font-size: 30px;
+    text-align: right;
+    border: 2px solid black;
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+#numbers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 30%
+}
+
+#operations{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#secondary-ops{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.numButton{
+    color: white;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+}
